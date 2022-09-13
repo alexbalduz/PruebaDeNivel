@@ -8,7 +8,7 @@ def catalogar(lista):
     for vehiculo in lista:
         print(type(vehiculo).__name__, vehiculo.__dict__)
 
-def catalogar1(lista, n_ruedas = 2):
+def catalogar1(lista, n_ruedas = None):
     contador = 0
     for vehiculo in lista:
         if n_ruedas == vehiculo.ruedas:
